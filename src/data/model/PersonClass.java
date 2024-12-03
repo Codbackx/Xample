@@ -2,6 +2,7 @@ package data.model;
 
 public class PersonClass {
   public String nombre;
-  private String email;
-  private String apellido;
+  public String email;
+  public String apellido;
+  public int edad;
 }
