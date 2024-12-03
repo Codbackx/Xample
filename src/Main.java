@@ -1,5 +1,11 @@
+import data.model.PersonClass;
+
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello, World!");
+    PersonClass persona = new PersonClass();
+
+    persona.setEmail("Kevin");
+
+    System.out.println(persona.getEmail());
   }
 }
